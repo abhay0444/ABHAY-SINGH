@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap form creation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    <h1> <center>FORM-VERTICAL </center></h1>
+    <div class="container" style="border:double ;">
+    <form>
+        <div class="form-group">
+            <label>USERNAME:</label>
+            <input type="email" placeholder="enter username" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label>PASSWORD:</label>
+            <input type="password" placeholder="enter password" class="form-control"/>  
+        </div>
+        <input type="submit" value="submit" class="btn btn-info">
+    </form>
+    </div><hr>
+
+
+    <h1><center>FORM-INLINE </center></h1>
+    <div class="container" style="border:fade;">
+    <form  class="form-inline">
+        <div class="form-group">
+            <label>USERNAME:</label>
+            <input type="email" placeholder="enter username" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label>PASSWORD:</label>
+            <input type="password" placeholder="enter password" class="form-control"/>  
+        </div>
+        <input type="submit" value="submit" class="btn btn-info">
+    </form>
+    </div>
+    <hr>
+
+    <h1><center>FORM-HORIZONTOL</center></h1>
+    <div class="container">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-lable col-md-2">USERNAME:</label>
+            <div class="col-md-10">
+            <input type="email" placeholder="enter email" class="form-control">
+        </div>
+        </div>
+        <div class="form-group">
+            <label class="control-lable col-md-2">PASSWORD:</label>
+            <div class="col-md-10">
+            <input type="password" placeholder="enter password" class="form-control">  
+        </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10"></div>
+        <input type="submit" value="submit" class="btn btn-info">
+        </div>
+        </div>
+    </form>
+    </div><hr>
+
+
+    
+    <h1><center>STATIC - FORM </center></h1>
+    <div class="container">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-lable col-md-2">USERNAME:</label>
+            <div class="col-md-10">
+            <p class="static-form-control">abhaysingh0836481@gmail.com</p>
+        </div>
+        </div>
+        <div class="form-group">
+            <label class="control-lable col-md-2">PASSWORD:</label>
+            <div class="col-md-10">
+            <input type="password" placeholder="enter password" class="form-control">  
+        </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10"></div>
+        <input type="submit" value="submit" class="btn btn-info">
+        </div>
+        </div>
+    </form>
+    </div>
+    
+
+    
+</body>
+</html>
